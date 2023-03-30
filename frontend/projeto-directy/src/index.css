@@ -1,0 +1,36 @@
+/* Define uma cor de fundo para o body */
+body {
+  background-color: #836FFF;
+}
+
+/* Centraliza a div principal do aplicativo */
+.App {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+/* Estiliza os botões */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px !important;
+  cursor: pointer;
+  margin-left: 10px !important;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+/* Define o espaçamento entre os componentes */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+/* Estiliza o card dos registros */
+.card {
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
